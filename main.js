@@ -1,5 +1,5 @@
-import { default as seagulls } from 'seagulls-main/seagulls.js'
-import { default as Mouse }    from 'seagulls-main/helpers/mouse.js'
+import { default as seagulls } from './seagulls-main/seagulls.js'
+import { default as Mouse }    from './seagulls-main/helpers/mouse.js'
 import { Pane } from 'https://cdn.jsdelivr.net/npm/tweakpane@4.0.1/dist/tweakpane.min.js';
 
 const shader = `${seagulls.constants.vertex}
