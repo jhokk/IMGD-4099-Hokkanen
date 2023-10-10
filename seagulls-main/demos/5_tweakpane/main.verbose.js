@@ -4,9 +4,9 @@ import { Pane } from 'https://cdn.jsdelivr.net/npm/tweakpane@4.0.1/dist/tweakpan
 /* tweakpane 
  *
  * tweakpane is a great sytem for making user interfaces,
- * particularly for overlaying over graphics. Learn mroe
+ * particularly for overlaying over graphics. Learn more
  * at https://cocopon.github.io/tweakpane/. In this example
- * we use tweakpane to presnet a color picker for changing
+ * we use tweakpane to present a color picker for changing
  * the color of a shader.
  */
 
