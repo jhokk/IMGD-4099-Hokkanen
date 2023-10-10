@@ -4,6 +4,6 @@
 @fragment
 fn fs( @builtin(position) pos : vec4f ) -> @location(0) vec4f {
   let value = .5 + sin( frame / 60. ) * .5;
-  //let p = pos.xy / resolution;
-  return vec4f( p.x, p.y, value, 1. );
+  let p = pos.xy / resolution;
+  return vec4f( p.x, p.y, 0., 1. );
 }
