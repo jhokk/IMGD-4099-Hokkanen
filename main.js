@@ -7,8 +7,10 @@ const sg = await seagulls.init(),
     shader = seagulls.constants.vertex + frag
 
 let frame = 0
+Mouse.init()
 
-sg.uniforms({ frame: 0, resolution:[window.innerWidth, window.innerHeight] })
+sg.uniforms({ frame: 0, resolution:[window.innerWidth, window.innerHeight], mouse:Mouse.values })
 sg.onframe(() => sg.uniforms.frame = frame++)
+sg.onframe(() => sg.uniforms.mouse = Mouse.values)
 sg.render(shader).run()
 
